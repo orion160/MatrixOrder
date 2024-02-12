@@ -12,7 +12,7 @@ public class App implements Runnable {
   }
 
   public static void main(String[] args) {
-    final var app = new App(Executors.newFixedThreadPool(4));
+    final var app = new App(Executors.newVirtualThreadPerTaskExecutor());
     app.run();
   }
 
