@@ -1,12 +1,10 @@
 package edu.uniandes;
 
 public class Maximum {
-    public int value;
+  public int value;
 
-    @Override
-    public String toString() {
-        return "Maximum{" +
-                "value=" + value +
-                '}';
-    }
+  @Override
+  public String toString() {
+    return String.format("Maximum{value=%s}", value);
+  }
 }

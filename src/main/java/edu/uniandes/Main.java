@@ -1,18 +1,18 @@
 package edu.uniandes;
 
 public class Main {
-    public static void main(String[] args) {
-        int n = 3;
-        int m = 3;
-        var matrix = MatrixGenerator.generate(100, 100);
+  public static void main(String[] args) {
+    int n = 3;
+    int m = 3;
+    var matrix = MatrixGenerator.generate(100, 100);
 
-        //System.out.println(matrix);
+    // System.out.println(matrix);
 
-        var service = new MatrixService();
-        var maximum = service.max(matrix);
+    var service = new MatrixService();
+    var maximum = service.max(matrix);
 
-        System.out.println("The maximum value in the matrix is: " + maximum);
+    System.out.println("The maximum value in the matrix is: " + maximum);
 
-        service.close();
-    }
+    service.close();
+  }
 }

@@ -12,4 +12,7 @@ Clone the project.
 
 cd into it
 
-execute ```gradlew run```
+execute 
+```bash
+./gradlew run
+```
