@@ -19,7 +19,7 @@ java {
 }
 
 application {
-    mainClass.set("edu.uniandes.Main")
+    mainClass.set("edu.uniandes.App")
     mainModule.set("edu.uniandes.MatrixOrder")
 }
 
